@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+:root{
+    --branco: rgb(204, 204, 255);
+    --preto: rgb(0, 0, 59);
+    --azul: blue;
+    --azul-claro: rgb(100, 100, 255);
+    --fonte-texto: "Poppins", serif
+}
+
+.logo{
+    height: 50px
+}
+
+.links{
+    display: flex;
+}
+
+.nada{
+    height: 50px;
+    width: 100vw;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 5px var(--preto) solid;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    background-color: var(--branco);
+}
+
+.links_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul);
+    height: 50px;
+    width: 200px;
+}
+
+.link1{
+    border-top-left-radius: 50px;
+}
+
+.nav__links{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: var(--fonte-texto);
+
+}
+
+.link1:hover, .link2:hover, .link3:hover{
+    border-bottom: 5px var(--branco) solid;
+    height: 45px;
+    transition: 200ms;
+}
+
+.img_redes{
+    height: 30px;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px var(--preto) solid;
+    text-align: center;
+    padding: 5%
+}
+
+
+.titulos{
+    font-family: var(--fonte-texto);
+    font-size: 2rem;
+    color: var(--preto);
+}
+
+.texto{
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.imagens{
+    width: 150%;
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+.NossosTrabalhos{
+    padding: 5%;
+    background: rgb(0,0,255);
+    background: linear-gradient(180deg, rgba(0,0,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.TodosTrabalhos{
+    border-bottom: 5px var(--preto) solid;
+}
+
+.sofa, .Colchões, .Tapetes, .Cadeiras{
+    background-color: var(--branco);
+    margin: 5%;
+    padding: 3% 5%;
+}
+
+.conteudo, .conteudo_invertido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_sofa{
+    width: 75%;
+}
+
+.img_colchao, .img_tapete, .img_cadeira{
+    width: 100%;
+}
+
+.imagem_rodape{
+    width: 50%;
+}
+
+.qs{
+    padding: 5% 10%;
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,0,255,1) 100%);
+}
+
+.rodape{
+    background-color: var(--branco);
+    padding: 5%;
+}
+
+@media (max-width: 800px) {
+
+    *{
+        margin: 0;
+        padding: 0
+    }
+
+    :root{
+        --branco: rgb(204, 204, 255);
+        --preto: rgb(0, 0, 59);
+        --azul: blue;
+        --azul-claro: rgb(100, 100, 255);
+        --fonte-texto: "Poppins", serif
+    }
+
+    .logo{
+        height: 5vh;
+    }
+
+    .links{
+        display: flex;
+    }
+
+    .nada{
+        height: 5vh;
+        width: 100vw;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 5px var(--preto) solid;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        background-color: var(--branco);
+    }
+
+    .links_links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--azul);
+        height: 5vh;
+        width: 20vw;
+    }
+
+    .link1{
+        border-top-left-radius: 20px;
+    }
+
+    .nav__links{
+        color: var(--branco);
+        text-decoration: none;
+        display: block;
+        width: 6vh;
+        font-size: 0.75rem;
+        font-family: var(--fonte-texto);
+
+    }
+
+    .link1:hover, .link2:hover, .link3:hover{
+        border-bottom: .5vh var(--branco) solid;
+        height: 4.5vh;
+        transition: 200ms;
+    }
+
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px var(--preto) solid;
+        text-align: center;
+    }
+
+
+    .titulos{
+        font-family: var(--fonte-texto);
+        font-size: 1rem;
+        color: var(--preto);
+    }
+
+    .titulo_sofa{
+        font-size: 1rem;
+    }
+
+    .texto_sofa{
+        font-size: .75rem;
+    }
+
+    .texto{
+        font-family: var(--fonte-texto);
+        font-size: 0.75rem;
+        color: var(--preto);
+        text-decoration: none;
+    }
+
+    .img_redes{
+        height: 1.5vh;
+    }
+
+    .imagens{
+        width: 150%;
+        box-sizing: border-box;
+        padding: 5%;
+    }
+
+    .NossosTrabalhos{
+        padding: 5%;
+        background: rgb(0,0,255);
+        background: linear-gradient(180deg, rgba(0,0,255,1) 0%, rgba(0,212,255,1) 100%);
+    }
+
+    .TodosTrabalhos{
+        border-bottom: 5px var(--preto) solid;
+    }
+
+    .sofa, .Colchões, .Tapetes, .Cadeiras{
+        background-color: var(--branco);
+    }
+
+    .conteudo, .conteudo_invertido{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .img_sofa, .img_colchao, .img_tapete, .img_cadeira{
+        width: 100%;
+    }
+
+    .imagem_rodape{
+        width: 15vh;
+    }
+
+    .qs{
+        padding: 5% 10%;
+        background: rgb(0,212,255);
+        background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,0,255,1) 100%);
+    }
+
+    .rodape{
+        background-color: var(--branco);
+        padding: 5%;
+    }
+
+    .texto_rodape{
+        font-size: 0.6rem
+    }
+
+}
